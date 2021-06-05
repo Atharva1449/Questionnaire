@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Drag And Drop</title>
+<link rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="modernizr.custom.38894.js"></script>
+<script src="main1.js">
+</script>
+</head>
+<body>
+
+<div id="uppernav">
+  <p id="p1">Test</p>
+<p id="p2">  Mcq Questions</p>
+</div>
+
+<div id="maindiv">
+  <div id="questiondiv">
+    <p>Question:</p><br><br>
+    <p>Please drag and drop the code from options, so as to meet the desired output.<br><br>Desired output - 2 multiplied by 2<br><br>class Helloworld {<br>public static void main(String[] args){<br> </p>
+      <br>
+   
+    
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      <br >
+      <p>}<br>}</p><br>
+     <div id="options">
+      <p>Options:</p><br><br>
+      <p>A.</p><br>
+  
+      <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div id="div2"  draggable="true" ondragstart="drag(event)">
+        
+        <p>System.out.println(2*2);</p>
+      </div>
+  
+      </div>
+      <br><p>B.</p><br>
+  
+      <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div id="div4"  draggable="true" ondragstart="drag(event)">
+        
+        <p>System.out.println("2*2");</p>
+      </div>
+  
+     </div> 
+
+    </div>
+  </div>
+  <div id="sidenavdiv">
+    <ul>
+      <li><a href="index.html" >Question number1</a></li>
+      <li><a href="question2.html" style="color: cornflowerblue; font-weight: bold;">Question number2</a></li>
+      <li><a href="question3.html">Question number3</a></li>
+    </ul>
+ 
+    
+  </div>
+
+</div>
+
+
+
+</body>
+</html>
